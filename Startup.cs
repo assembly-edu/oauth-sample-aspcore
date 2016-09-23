@@ -67,8 +67,8 @@ namespace AssemblyOAuthSample
                 ClientId = Configuration["assembly:clientid"],
                 ClientSecret = Configuration["assembly:clientsecret"],
                 CallbackPath = new PathString("/assembly-auth"),
-                AuthorizationEndpoint = "http://192.168.201.1:3000/oauth/authorize",
-                TokenEndpoint = "http://192.168.201.1:3000/oauth/token",
+                AuthorizationEndpoint = "https://platform-sandbox.assembly.education/oauth/authorize",
+                TokenEndpoint = "https://platform-sandbox.assembly.education/oauth/token",
                 SaveTokens = true,
                 Scope =
                 {
