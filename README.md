@@ -9,17 +9,17 @@ Up and Running
 --------------
 To begin with you're going to need a working ASP.NET. I'm sure there are many way to achieve that and we're not going to try and tell you how you should/how best to do that.
 
-In order to make this sample we used .NET Core. You can install that by following [https://www.microsoft.com/net/core#windows](this page) if you want to.
+In order to make this sample we used .NET Core. You can install that by following [this page](https://www.microsoft.com/net/core#windows) if you want to.
 
 Also, before you get started on this you'll need to create an application on the Assembly Platform sandbox environment. To do that read [this](http://help.assembly.education/article/38-signing-up-to-the-platform).
 
 Once you've successfully finished the steps above you can clone this repo and run:
 
-  cd oauth-sample-aspcore
-  dotnet restore
+	cd oauth-sample-aspcore
+	dotnet restore
 
 After the necessary dependencies have been restored you'll need to substitute your Assembly App's ID and secret into `appsettings.json`. Then you can run:
 
-  dotnet run
+	dotnet run
   
 And visit the sample in your browser at [http://localhost:5000](http://localhost:5000)
