@@ -25,3 +25,13 @@ After the necessary dependencies have been restored you'll need to substitute yo
 	dotnet run
   
 And visit the sample in your browser at [http://localhost:5000](http://localhost:5000)
+
+
+Further Reading
+---------------
+
+There's a bit more information on how the OAuth flow works over at our [Sinatra OAuth Sample](https://github.com/assembly-edu/oauth-sample-sinatra) which also makes it much clearer what the steps are since it's all written out in code and not using a library as this ASP.NET samnple is.
+
+There's our [API documentation section about OAuth](http://developers.assembly.education/api/oauth/) which gives you basic information about the parameters for the various parts of the OAuth exchange.
+
+And, finally, there's the [OAuth spec](https://tools.ietf.org/html/rfc6749) itself which is probably well worth being familiar with.
