@@ -15,6 +15,8 @@ In order to make this sample we used .NET Core. You can install that by followin
 
 Also, before you get started on this you'll need to create an application on the Assembly Platform sandbox environment. To do that read [this](http://help.assembly.education/article/38-signing-up-to-the-platform).
 
+*BE SURE TO* set the 'Redirect URI' field on your sandbox app to `http://localhost:5000/assembly-auth`.
+
 Once you've successfully finished the steps above you can clone this repo and run:
 
 	cd oauth-sample-aspcore
